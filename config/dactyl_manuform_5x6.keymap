@@ -34,7 +34,7 @@ debounce-release-ms = <30>;
                                  &kp LBKT &kp MINUS                                          &kp EQUAL &kp RBKT 
                                                  &kp LCTRL &kp SPACE        &kp RET  &kp LALT
                                                  &kp LSHFT &kp HOME         &kp DEL  &kp BSPC
-                                                 &mo LWR   &kp GRAVE        &kp LGUI &mo RSE
+                                                 &mo LWR   &kp LGUI         &kp RGUI &mo RSE
             >;
         };
 
@@ -46,21 +46,21 @@ debounce-release-ms = <30>;
                 &trans  &trans &trans &trans &trans &trans                                                &trans &trans   &trans   &trans &trans    &mo ADJ
                                &trans &trans                                                                                       &trans &trans
                                              &trans &trans                                                &trans &trans
-                                             &trans &trans                                                &trans &trans
+                                             &trans &trans                                                &kp BSPC &kp DEL
                                              &trans &trans                                                &trans &mo ADJ
             >;
         };
 
         raise_layer {
             bindings = <
-                &trans  &trans &trans   &trans   &trans    &trans                &trans &trans   &trans    &trans    &trans &kp K_MUTE
-                &trans  &trans &kp LBRC &kp RBRC &kp EXCL  &trans                &trans &kp LT   &kp GT    &kp POUND &trans &kp K_VOL_UP
-                &trans  &trans &kp LPAR &kp RPAR &kp QMARK &trans                &trans &kp PLUS &kp MINUS &KP EQUAL &trans &kp K_VOL_DN
-                &mo ADJ &trans &kp lBKT &kp RBKT &kp DLLR  &trans                &trans &kp STAR &kp FSLH  &kp PRCNT &trans &trans 
-                               &trans   &trans                                                   &trans    &trans
-                                             &trans  &trans               &trans &trans
-                                             &trans  &trans               &trans &trans
-                                             &mo ADJ &trans               &trans &trans
+                &trans  &trans &trans   &trans   &trans    &trans         &trans &trans   &trans    &trans    &trans &kp K_MUTE
+                &trans  &trans &kp LBRC &kp RBRC &kp EXCL  &trans         &trans &kp LT   &kp GT    &kp POUND &trans &kp K_VOL_UP
+                &trans  &trans &kp LPAR &kp RPAR &kp QMARK &trans         &trans &kp PLUS &kp MINUS &KP EQUAL &trans &kp K_VOL_DN
+                &mo ADJ &trans &kp lBKT &kp RBKT &kp DLLR  &trans         &trans &kp STAR &kp FSLH  &kp PRCNT &trans &trans 
+                               &trans   &trans                                            &trans    &trans
+                                                 &trans  &trans           &trans &trans
+                                                 &trans  &trans           &kp BSPC &kp DEL
+                                                 &mo ADJ &trans           &trans &trans
             >;
         };
 
