@@ -32,8 +32,8 @@ debounce-release-ms = <30>;
                 &kp GRAVE &kp A  &kp S     &kp D  &kp F     &kp G            &kp H    &kp J   &kp K     &kp L   &kp SEMI &kp SQT
                 &mo LWR   &kp Z  &kp X     &kp C  &kp V     &kp B            &kp N    &kp M   &kp COMMA &kp DOT &kp FSLH &mo RSE
                                  &kp MINUS &kp LBKT                                           &kp RBKT  &kp EQUAL  
-                                                  &kp LCTRL &kp SPACE        &kp RET  &kp RALT
-                                                  &kp LSHFT &kp BSPC         &kp DEL &kp RSHFT
+                                                  &kp LCTRL &kp SPACE        &kp RET  &kp RCTRL
+                                                  &kp LSHFT &kp LALT         &kp RALT &kp RSHFT
                                                   &mo LWR   &kp LGUI         &kp RGUI &mo RSE
             >;
         };
@@ -46,7 +46,7 @@ debounce-release-ms = <30>;
                 &trans  &trans &trans &trans &trans &trans                                                &trans &trans   &trans   &trans &trans    &mo ADJ
                                &trans &trans                                                                                       &trans &trans
                                              &trans &trans                                                &trans &trans
-                                             &trans &trans                                                &kp BSPC &kp DEL
+                                             &trans &trans                                                &trans &trans 
                                              &trans &trans                                                &trans &mo ADJ
             >;
         };
@@ -59,7 +59,7 @@ debounce-release-ms = <30>;
                 &mo ADJ &trans &kp LBKT &kp RBKT &kp DLLR  &trans         &trans &kp STAR &kp FSLH  &kp PRCNT &trans &trans 
                                &trans   &trans                                            &trans    &trans
                                                  &trans  &trans           &trans &trans
-                                                 &trans  &trans           &kp BSPC &kp DEL
+                                                 &trans  &trans           &trans &trans
                                                  &mo ADJ &trans           &trans &trans
             >;
         };
