@@ -95,7 +95,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                   RC(3,11) RC(3,
     oled: sh1106@3c {
         compatible = "sinowealth,sh1106";
         reg = <0x3c>;
-        width = <128>;
+        width = <129>;
         height = <64>;
         segment-offset = <1>;
         page-offset = <0>;
@@ -106,4 +106,4 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                   RC(3,11) RC(3,
         inversion-on;
         prechargep = <0x22>;
         };
-};
+}; 
