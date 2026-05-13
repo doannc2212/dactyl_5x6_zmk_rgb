@@ -27,6 +27,10 @@ struct peripheral_battery_state {
     uint8_t level;
 };
     
+#ifndef CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+#define CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS 2
+#endif
+
 static lv_color_t battery_image_buffer[CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS][5 * 8];
 
 static void draw_battery(lv_obj_t *canvas, uint8_t level) {

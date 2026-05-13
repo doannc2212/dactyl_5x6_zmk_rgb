@@ -13,16 +13,16 @@
 #
 ---
 include:
-  - board: nice_nano/nrf52840
+  - board: nice_nano/nrf52840/zmk
     shield: dactyl_manuform_5x6_dongle dongle_display
     artifact-name: dactyl_central
-  - board: nice_nano/nrf52840
+  - board: nice_nano/nrf52840/zmk
     shield: dactyl_manuform_5x6_left
     artifact-name: dactyl_left
-  - board: nice_nano/nrf52840
+  - board: nice_nano/nrf52840/zmk
     shield: dactyl_manuform_5x6_right
     artifact-name: dactyl_right
-  - board: nice_nano/nrf52840
+  - board: nice_nano/nrf52840/zmk
     shield: settings_reset
     artifact-name: settings_reset
   # - board: nice_nano/nrf52840
