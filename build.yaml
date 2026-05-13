@@ -13,19 +13,19 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano/nrf52840
     shield: dactyl_manuform_5x6_dongle dongle_display
     artifact-name: dactyl_central
-  - board: nice_nano
+  - board: nice_nano/nrf52840
     shield: dactyl_manuform_5x6_left
     artifact-name: dactyl_left
-  - board: nice_nano
+  - board: nice_nano/nrf52840
     shield: dactyl_manuform_5x6_right
     artifact-name: dactyl_right
-  - board: nice_nano
+  - board: nice_nano/nrf52840
     shield: settings_reset
     artifact-name: settings_reset
-  # - board: nice_nano
+  # - board: nice_nano/nrf52840
   #   shield: dactyl_manuform_5x6_dongle dongle_display
   #   cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
   #   artifact-name: dactyl_central_with_logging
