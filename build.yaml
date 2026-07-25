@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nrfmicro/nrf52840/zmk
+  - board: nice_nano//zmk
     shield: dactyl_left
-  - board: nrfmicro/nrf52840/zmk
+  - board: nice_nano//zmk
     shield: dactyl_right
-  - board: nrfmicro/nrf52840/zmk
+  - board: nice_nano//zmk
     shield: settings_reset
