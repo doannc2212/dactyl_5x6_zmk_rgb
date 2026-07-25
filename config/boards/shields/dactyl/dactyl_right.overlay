@@ -4,6 +4,10 @@
     col-offset = <6>;
 };
 
+&uicr {
+    nfct-pins-as-gpios;
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 19 GPIO_ACTIVE_HIGH>
