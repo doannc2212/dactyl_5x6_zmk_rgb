@@ -23,8 +23,8 @@ debounce-release-ms = <30>;
                 &kp TAB   &kp Q  &kp W  &kp E  &kp R  &kp T               &kp Y  &kp U  &kp I     &kp O   &kp P    &kp BSLH
                 &kp GRAVE &kp A  &kp S  &kp D  &kp F  &kp G               &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
                 &mo 1     &kp Z  &kp X  &kp C  &kp V  &kp B               &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo 2
-                          &kp MINUS &kp LBKT &kp LCTRL &kp SPACE          &kp RET &kp RCTRL &none &none
-                          &mo 2     &kp LGUI &kp LSHFT &kp LALT           &kp RALT &kp RSHFT &kp RGUI &mo 1
+                          &kp MINUS &kp LBKT &kp LCTRL &kp RET            &EQUAL &RBKT &kp SPACE &kp RCTRL
+                          &kp LALT  &kp LSHFT &mo 2 &kp LGUI              &kp RSHFT &kp RALT &kp RGUI &mo 1
             >;
         };
 
